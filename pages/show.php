@@ -7,7 +7,7 @@
  */
 
 // On appelle la liste des tâches
-$data = require_once "data.php";
+$data = require_once "../data.php";
 
 // Par défaut, on imagine qu'aucun id n'a été précisé
 $id = null;
