@@ -67,6 +67,13 @@ https://marketplace.visualstudio.com/items?itemName=MehediDracula.php-namespace-
 
 # Pour étudier le composant symfony/routing, je vous ai préparé un projet type que vous pourrez trouver ici : https://github.com/liorchamla/pratique-symfony-routing
 
+# La Route 
+Elle représente une URL, ses paramètres et les contraintes qui s'appliquent à elle
+# La RouteCollection
+Elle représente la liste des routes utilisables dans notre projet et donne un identifiant unique à chaque Route
+# Le UrlMatcher
+Il permet d'analyser la requête HTTP actuelle et donc l'adresse tapée par l'utilisateur et retrouve la route correspondante en extrayant les paramètres et informations essentielles afin qu'on puisse travailler avec
+
 
 
 
