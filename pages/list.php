@@ -7,7 +7,7 @@
  */
 
 // On récupère les tâches
-$data = require_once '../data.php';
+$data = require_once '/data.php';
 
 ?>
 <!DOCTYPE html>

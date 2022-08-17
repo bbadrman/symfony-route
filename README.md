@@ -61,19 +61,23 @@ https://marketplace.visualstudio.com/items?itemName=neilbrayfield.php-docblocker
 
 # Extension PHP Namespace Resolver
 
-Essentielle lorsqu'on travaille avec le système des espaces de noms de PHP (les Namespaces), elle vous permettra de retrouver aisément dans quel espace de noms se trouve telle ou telle classe de Symfony.
+Essentielle lorsqu'on travaille avec le système des espaces de noms de PHP (les Namespaces), elle vous permettra de retrouver aisément dans quel espace de noms se trouve telle ou telle classe de Symfony.(pour importer les classe)
 
 https://marketplace.visualstudio.com/items?itemName=MehediDracula.php-namespace-resolver
 
 # Pour étudier le composant symfony/routing, je vous ai préparé un projet type que vous pourrez trouver ici : https://github.com/liorchamla/pratique-symfony-routing
 
-# La Route 
+## La Route 
 Elle représente une URL, ses paramètres et les contraintes qui s'appliquent à elle
 # La RouteCollection
 Elle représente la liste des routes utilisables dans notre projet et donne un identifiant unique à chaque Route
 # Le UrlMatcher
 Il permet d'analyser la requête HTTP actuelle et donc l'adresse tapée par l'utilisateur et retrouve la route correspondante en extrayant les paramètres et informations essentielles afin qu'on puisse travailler avec
 
+
+## composer require symfony/routing
+
+Après avoir tapé cela, on va pouvoir utiliser dans notre projet l'ensemble des classes et fonctions qui sont offertes par cette librairie !
 
 
 

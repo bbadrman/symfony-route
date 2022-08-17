@@ -1,0 +1,1 @@
+{"buildTargets":["build","db","destroy","install","logs","logs-db","logs-web","ps","restart","stop","symfony-dfl","symfony-dmm","symfony-mc","symfony-me","symfony-mm","up","web"],"launchTargets":[],"customConfigurationProvider":{"workspaceBrowse":{"browsePath":[],"compilerArgs":[]},"fileIndex":[]}}
