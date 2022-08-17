@@ -1,32 +1,29 @@
 <?php
 
-/**
- * BIENVENUE DANS CE COURS SUR LE COMPOSANT SYMFONY/ROUTING !
- * ----------------------
- * Dans ce cours nous allons étudier ce fabuleux composant qui permet de créer et de gérer des routes (adresses) intelligentes et intelligibles !
- * 
- * PRESENTATION DE L'APPLICATION (SIMPLE) :
- * ----------------
- * Nous avons ici une application de gestion de tâches très simple : pas de base de données, pas de réelles manipulations de données, ce n'est
- * qu'à des fins d'exemples.
- * 
- * Elle possède 3 pages distinctes :
- * - /index.php (ou /index.php?page=list) : permet d'afficher la liste des tâches contenue dans le fichier data.php (voir le fichier pages/list.php)
- * - /index.php?page=show&id=100 : permet d'afficher la tâche dont l'identifiant est 100 en détails (voir le fichier pages/show.php)
- * - /index.php?page=create (en GET) : permet d'afficher le formulaire de création (voir le fichier pages/create.php)
- * - /index.php?page=create (en POST) : permet de traiter le formulaire de création (toujours dans pages/create.php)
- * 
- * CREER DES ROUTES PERSONNALISEES (ET JOLIES ?) :
- * ----------------
- * On souhaite désormais pouvoir gérer tout ça avec des routes plus "propres" :
- * - /index.php (ou /index.php?page=list) deviendrait juste / 
- * - /index.php?page=show&id=100 deviendrait /show/100
- * - /index.php?page=create (en GET) deviendrait /create (en GET)
- * - /index.php?page=create (en POST) deviendrait /create (en POST)
- * 
- * Ca vous dit ? Alors commencez par bien analayser l'application dans son état actuel pour bien la comprendre, et passez à la section suivante
- * 
- */
+use Symfony\Component\Routing\Route;
+use Symfony\Component\Routing\RequestContext;
+use Symfony\Component\Routing\RouteCollection;
+use Symfony\Component\Routing\Matcher\UrlMatcher;
+
+
+ 
+// require __DIR__ . '/../vendor/autoload.php';
+
+// $listRoute = new Route('/');
+// $createRoute = new Route('/create'); // create => /index.php?page=create
+// $showRoute = new Route('/show'); // show?=100 => /index.php?page=show&id=100
+
+// $collection = new RouteCollection();
+// $collection->add('list', $listRoute);
+// $collection->add('create', $createRoute);  
+// $collection->add('show', $showRoute);
+
+// $matcher = new UrlMatcher($collection, new RequestContext());
+
+// $resultat = $matcher->match('/');
+
+// var_dump($resultat);
+// die();
 
 /**
  * LES PAGES DISPONIBLES

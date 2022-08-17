@@ -74,6 +74,10 @@ Elle représente la liste des routes utilisables dans notre projet et donne un i
 # Le UrlMatcher
 Il permet d'analyser la requête HTTP actuelle et donc l'adresse tapée par l'utilisateur et retrouve la route correspondante en extrayant les paramètres et informations essentielles afin qu'on puisse travailler avec
 
+## composer require symfony/routing
+
+Après avoir tapé cela, on va pouvoir utiliser dans notre projet l'ensemble des classes et fonctions qui sont offertes par cette librairie !
+
 
 
 
