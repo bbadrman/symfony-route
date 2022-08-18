@@ -78,6 +78,12 @@ Il permet d'analyser la requête HTTP actuelle et donc l'adresse tapée par l'ut
 
 Après avoir tapé cela, on va pouvoir utiliser dans notre projet l'ensemble des classes et fonctions qui sont offertes par cette librairie !
 
+## composer require symfony/var-dumper
+  pour dump dump() et dd() qui permettent de faire des inspections de nos variables !
+
+dump() remplace le traditionnel var_dump()
+dd() remplace le traditionnel var_dump() et die()
+
 
 
 

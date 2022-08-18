@@ -1,5 +1,6 @@
 {
     "require": {
-        "symfony/routing": "^5.4"
+        "symfony/routing": "^5.4",
+        "symfony/var-dumper": "^5.4"
     }
 }
