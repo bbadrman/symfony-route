@@ -15,7 +15,7 @@
 
 <body>
     <h1>Ooops ! La page demandée n'existe pas !</h1>
-    <a href="index.php">Revenir à la liste</a>
+    <a href="<?= $generator->generate('list') ?>">Revenir à la liste</a>
 </body>
 
 </html>

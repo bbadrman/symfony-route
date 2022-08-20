@@ -1,5 +1,5 @@
-<?php
 
+<?php
 /**
  * PAGE DE CREATION D'UNE TÂCHE :
  * -------------
@@ -48,7 +48,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         <button type="submit">Enregistrer</button>
     </form>
 
-    <a href="index.php">Retour à la liste</a>
+    <a href="<?= $generator->generate('list') ?>">Retour à la liste</a> 
+    ou <a href="<?= $generator->generate('create') ?>">Créer une autre tache</a>
 </body>
 
 </html>

@@ -2,35 +2,64 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 make: *** No rule to make target 'all'.  Stop.
 
 # GNU Make 4.3
+ 
 # Built for x86_64-pc-linux-gnu
+ 
 # Copyright (C) 1988-2020 Free Software Foundation, Inc.
+ 
 # License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+ 
 # This is free software: you are free to change and redistribute it.
+ 
 # There is NO WARRANTY, to the extent permitted by law.
+ 
 
-# Make data base, printed on Thu Aug 18 16:56:42 2022
+ 
+# Make data base, printed on Sat Aug 20 17:54:40 2022
+ 
 
 # Variables
+ 
 
+ 
 # environment
+ 
 GDK_BACKEND = x11
+ 
 # environment
+ 
 LC_ALL = C
+ 
 # environment
+ 
 GNOME_SHELL_SESSION_MODE = ubuntu
+ 
 # environment
+ 
 SSH_AGENT_LAUNCHER = gnome-keyring
+ 
 # environment
+ 
 SNAP_INSTANCE_KEY = 
+ 
 # environment
+ 
 GJS_DEBUG_OUTPUT = stderr
+ 
 # environment
+ 
 LC_NAME = fr_FR.UTF-8
+ 
 # environment
+ 
 LC_NUMERIC = fr_FR.UTF-8
+ 
 # environment
+ 
 VSCODE_CWD = /home/badr
+ 
 # environment
+ 
 LC_ADDRESS = fr_FR.UTF-8
 # default
 MAKE_COMMAND := make
@@ -41,7 +70,7 @@ QT_ACCESSIBILITY = 1
 # environment
 SNAP_INSTANCE_NAME = code
 # environment
-GDK_PIXBUF_MODULEDIR = /snap/code/104/usr/lib/x86_64-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders
+GDK_PIXBUF_MODULEDIR = /snap/code/105/usr/lib/x86_64-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders
 # environment
 VSCODE_HANDLES_UNCAUGHT_ERRORS = true
 # default
@@ -57,11 +86,11 @@ XDG_DATA_DIRS = /usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/d
 # automatic
 %F = $(notdir $%)
 # environment
-VSCODE_CODE_CACHE_PATH = /home/badr/.config/Code/CachedData/6d9b74a70ca9c7733b29f0456fd8195364076dda
+VSCODE_CODE_CACHE_PATH = /home/badr/.config/Code/CachedData/e4503b30fc78200f846c62cf8091b76ff5547662
 # environment
 LANG = C
 # environment
-XAUTHORITY = /run/user/1000/.mutter-Xwaylandauth.5640Q1
+XAUTHORITY = /run/user/1000/.mutter-Xwaylandauth.SOYRR1
 # default
 .LOADED := 
 # default
@@ -97,7 +126,7 @@ SNAP_REEXEC =
 # automatic
 @F = $(notdir $@)
 # environment
-VSCODE_PID = 5101
+VSCODE_PID = 5742
 # environment
 XDG_SESSION_TYPE = wayland
 # automatic
@@ -105,7 +134,7 @@ XDG_SESSION_TYPE = wayland
 # environment
 BAMF_DESKTOP_FILE_HINT = /var/lib/snapd/desktop/applications/code_code.desktop
 # environment
-SESSION_MANAGER = local/badr-pc:@/tmp/.ICE-unix/2416,unix/badr-pc:/tmp/.ICE-unix/2416
+SESSION_MANAGER = local/badr-pc:@/tmp/.ICE-unix/2380,unix/badr-pc:/tmp/.ICE-unix/2380
 # automatic
 *F = $(notdir $*)
 # environment
@@ -115,7 +144,7 @@ DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus
 # automatic
 <D = $(patsubst %/,%,$(dir $<))
 # environment
-VSCODE_NLS_CONFIG = {"locale":"fr","availableLanguages":{"*":"fr"},"_languagePackId":"8a64477f85858ca31d1daacec93dba94.fr","_translationsConfigFile":"/home/badr/.config/Code/clp/8a64477f85858ca31d1daacec93dba94.fr/tcf.json","_cacheRoot":"/home/badr/.config/Code/clp/8a64477f85858ca31d1daacec93dba94.fr","_resolvedLanguagePackCoreLocation":"/home/badr/.config/Code/clp/8a64477f85858ca31d1daacec93dba94.fr/6d9b74a70ca9c7733b29f0456fd8195364076dda","_corruptedFile":"/home/badr/.config/Code/clp/8a64477f85858ca31d1daacec93dba94.fr/corrupted.info","_languagePackSupport":true}
+VSCODE_NLS_CONFIG = {"locale":"fr","availableLanguages":{"*":"fr"},"_languagePackId":"8a64477f85858ca31d1daacec93dba94.fr","_translationsConfigFile":"/home/badr/.config/Code/clp/8a64477f85858ca31d1daacec93dba94.fr/tcf.json","_cacheRoot":"/home/badr/.config/Code/clp/8a64477f85858ca31d1daacec93dba94.fr","_resolvedLanguagePackCoreLocation":"/home/badr/.config/Code/clp/8a64477f85858ca31d1daacec93dba94.fr/e4503b30fc78200f846c62cf8091b76ff5547662","_corruptedFile":"/home/badr/.config/Code/clp/8a64477f85858ca31d1daacec93dba94.fr/corrupted.info","_languagePackSupport":true}
 # default
 MAKE_HOST := x86_64-pc-linux-gnu
 # environment
@@ -151,11 +180,11 @@ SNAP_USER_COMMON = /home/badr/snap/code/common
 # environment
 LC_TIME = fr_FR.UTF-8
 # environment
-SNAP = /snap/code/104
+SNAP = /snap/code/105
 # environment
-INVOCATION_ID = 68024c6a09de4febb4e5308401c86662
+INVOCATION_ID = 3f32b93b54eb4a3cb72fb5b5a8ee515a
 # environment
-SNAP_REVISION = 104
+SNAP_REVISION = 105
 # environment
 SNAP_REAL_HOME = /home/badr
 # environment
@@ -189,7 +218,7 @@ SNAP_ARCH = amd64
 # makefile
 .DEFAULT_GOAL := build
 # environment
-SYSTEMD_EXEC_PID = 2466
+SYSTEMD_EXEC_PID = 2418
 # environment
 DISPLAY = :0
 # environment
@@ -201,19 +230,19 @@ MAKE_VERSION := 4.3
 # environment
 DISABLE_WAYLAND = 1
 # environment
-SNAP_DATA = /var/snap/code/104
+SNAP_DATA = /var/snap/code/105
 # environment
 SNAP_CONTEXT = 31bkCVBhOkBE6-hQ3mv2CmsQXEsDJDLjrMQbF91GTksG2FRQ-EfT
 # environment
-MANAGERPID = 2266
+MANAGERPID = 2229
 # environment
 LC_MEASUREMENT = fr_FR.UTF-8
 # environment
-GIO_LAUNCHED_DESKTOP_FILE_PID = 5009
+GIO_LAUNCHED_DESKTOP_FILE_PID = 5703
 # makefile (from 'makefile', line 1)
 THIS_FILE := makefile
 # environment
-_ = /snap/code/104/usr/share/code/code
+_ = /snap/code/105/usr/share/code/code
 # environment
 LC_PAPER = fr_FR.UTF-8
 # environment
@@ -221,7 +250,7 @@ XDG_RUNTIME_DIR = /run/user/1000
 # environment
 GDK_PIXBUF_MODULE_FILE = /home/badr/snap/code/common/.cache/gdk-pixbuf-loaders.cache
 # environment
-JOURNAL_STREAM = 8:36204
+JOURNAL_STREAM = 8:35158
 # environment
 XDG_SESSION_CLASS = user
 # environment
@@ -233,11 +262,11 @@ QT_IM_MODULE = ibus
 # environment
 ELECTRON_RUN_AS_NODE = 1
 # environment
-VSCODE_IPC_HOOK = /run/user/1000/vscode-d843d9ce-1.70.1-main.sock
+VSCODE_IPC_HOOK = /run/user/1000/vscode-d843d9ce-1.70.2-main.sock
 # environment
 SNAP_NAME = code
 # environment
-GSETTINGS_SCHEMA_DIR = /snap/code/104/usr/share/glib-2.0/schemas
+GSETTINGS_SCHEMA_DIR = /snap/code/105/usr/share/glib-2.0/schemas
 # environment
 IM_CONFIG_PHASE = 1
 # environment
@@ -247,7 +276,7 @@ PAPERSIZE = a4
 # automatic
 <F = $(notdir $<)
 # environment
-SNAP_VERSION = 6d9b74a7
+SNAP_VERSION = e4503b30
 # default
 SUFFIXES := 
 # environment
@@ -259,7 +288,7 @@ SNAP_COMMON = /var/snap/code/common
 # default
 .FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync check-symlink load
 # environment
-SNAP_USER_DATA = /home/badr/snap/code/104
+SNAP_USER_DATA = /home/badr/snap/code/105
 # environment
 XDG_MENU_PREFIX = gnome-
 # environment
@@ -277,10 +306,9 @@ SNAP_LIBRARY_PATH = /var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32:/var/lib/snapd
 
 # Directories
 
-# . (device 2050, inode 23859283): 19 files, no impossibilities.
+# . (device 2050, inode 23859283): 18 files, no impossibilities.
 
-# 19 files, no impossibilities in 1 directories.
- 
+# 18 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -324,6 +352,7 @@ logs-db:
 #  Phony target (prerequisite of .PHONY).
 #  Implicit rule search has not been done.
 #  File does not exist.
+ 
 #  File has not been updated.
 #  recipe to execute (from 'makefile', line 20):
 	docker-compose logs --tail=100 -f db
@@ -457,12 +486,12 @@ symfony-dfl:
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 41 / storage = 343 B / avg = 8 B
-# current buf: size = 8162 B / used = 343 B / count = 41 / avg = 8 B
+# strcache buffers: 1 (0) / strings = 40 / storage = 333 B / avg = 8 B
+# current buf: size = 8162 B / used = 333 B / count = 40 / avg = 8 B
 
-# strcache performance: lookups = 81 / hit rate = 49%
+# strcache performance: lookups = 80 / hit rate = 50%
 # hash-table stats:
-# Load=41/8192=1%, Rehash=0, Collisions=0/81=0%
-# Finished Make data base on Thu Aug 18 16:56:42 2022
+# Load=40/8192=0%, Rehash=0, Collisions=0/80=0%
+# Finished Make data base on Sat Aug 20 17:54:40 2022
 
  

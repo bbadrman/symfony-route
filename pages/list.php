@@ -23,12 +23,12 @@ $data = require_once '../data.php';
 <body>
     <h1>Liste des tâches</h1>
 
-    <a href="index.php?page=create">Créer une tâche</a>
+    <a href="<?= $generator->generate('create') ?>">Créer une tâche</a>
 
     <?php foreach ($data as $id => $task) : ?>
         <h2><?= $task['title'] ?> (<?= $task['completed'] ? "Complête" : "Incomplête" ?>)</h2>
         <small>Priorité : <?= $task['priority'] ?></small><br>
-        <a href="index.php?page=show&id=<?= $id ?>">En savoir plus</a>
+        <a href="<?= $generator->generate('show', ['id' => $id]) ?>">En savoir plus</a>
     <?php endforeach ?>
 </body>
 
